@@ -1,7 +1,8 @@
 # CanvasView
 Android library to create view that lets you draw on it.
 
-To get a Git project into your build:
+
+## Add library to project:
 
 ### Step 1. Add the JitPack repository to your build file
 
@@ -19,3 +20,20 @@ Add it in your root build.gradle at the end of repositories:
 	dependencies {
 	        implementation 'com.github.imabhishekkumar:CanvasView:1.0'
 	}
+
+## Implementation 
+
+### Set background color, marker color, and stroke width
+
+	val canvasView = findViewById<CanvasView>(R.id.canvasView)
+        canvasView.setColorBackground(R.color.colorPrimary)
+        canvasView.setColorMarker(R.color.colorAccent)
+        canvasView.setStrokeWidth(12f)
+
+### Get/Set Bitmap from/to view
+	
+ 	canvasView.getBitmap()
+	canvasView.setBitmap(bitmap)
+
+### Clear view
+	canvasView.clearView()
