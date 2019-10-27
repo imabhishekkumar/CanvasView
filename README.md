@@ -1,5 +1,5 @@
 # CanvasView
-Android library to create view that lets you draw on it.
+Android library that lets you draw on it.
 
 
 ## Add library to project:
