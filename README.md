@@ -23,6 +23,13 @@ Add it in your root build.gradle at the end of repositories:
 
 ## Implementation 
 
+### In XML layout
+
+	 <dev.abhishekkumar.canvasview.CanvasView
+        	android:id="@+id/canvasView"
+        	android:layout_width="match_parent"
+        	android:layout_height="match_parent"/>
+
 ### Set background color, marker color, and stroke width
 
 	val canvasView = findViewById<CanvasView>(R.id.canvasView)
